@@ -140,8 +140,6 @@ React Flow is a strong fit here because the case study emphasizes:
 - small sandbox testing
 - modular front-end architecture
 
-The prototype leans into those strengths while keeping the overall codebase interview-friendly.
-
 ### UI Direction
 
 The UI uses a light analytics dashboard style inspired by the provided broad references:
