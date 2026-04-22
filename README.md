@@ -119,36 +119,6 @@ The sandbox panel:
 
 ## Design Choices
 
-### Why this structure
-
-I separated the app into:
-
-- `types`: stable workflow contracts
-- `data`: node defaults, palette definitions, starter templates
-- `lib`: validation, serialization, sandbox execution, node decoration
-- `mock`: async API simulation
-- `components`: focused UI building blocks
-
-This keeps the solution easy to extend if more HR node types or real API integration are added later.
-
-### Why React Flow
-
-React Flow is a strong fit here because the case study emphasizes:
-
-- custom nodes
-- edge management
-- small sandbox testing
-- modular front-end architecture
-
-### UI Direction
-
-The UI uses a light analytics dashboard style inspired by the provided broad references:
-
-- left palette for workflow blocks and templates
-- center graph workspace
-- right-side inspector and sandbox
-- visible validation and execution status
-
 ## Assumptions
 
 - No authentication is required
