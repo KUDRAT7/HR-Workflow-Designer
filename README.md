@@ -159,12 +159,4 @@ The UI uses a light analytics dashboard style inspired by the provided broad ref
 - Workflow execution in the sandbox is intentionally lightweight and deterministic
 - The prototype is optimized for clarity and extensibility over enterprise-scale rule execution
 
-## Tradeoffs
 
-- The sandbox simulates one happy-path/branch path rather than a full workflow engine
-- Validation is intentionally practical, not exhaustive
-- The app uses local mock data instead of a real backend or browser storage
-
-## Notes
-
-The current local environment for this assignment did not have `node` / `npm` available on PATH, so the code was prepared carefully but not executed in-place here. On a standard Node.js setup, the project should install and run with the commands above.
